@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'Ubuntu';
+	src: url(fonts/Ubuntu-Regular.ttf);
+}
+.modal-one{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.2);
+	animation-name: modal_open;
+	animation-duration: 1s;
+}
+@keyframes modal_open{
+	from{
+		opacity: 0
+	}
+	to{
+		opacity: 1
+	}
+}
+.modal-content{
+	background-color: #f4f4f4;
+	margin: 10% auto;
+	padding: 20px; 
+	width: 60%;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+	border-radius: 15px;
+}
+.modal-content h3{
+	padding: 20px;
+	padding-left: 15px;
+}
+.modal-content p{
+	padding: 15px;
+	padding-left: 30;
+	text-align: justify;
+	word-break: break-all;
+	word-spacing: 0.5em;
+}
+.modal-content ul{
+	padding-left: 40px;
+}
+.modal-content ul li{
+	padding-top: 10px;
+}
+.closeBtn{
+	color: coral;
+	float: right;
+	font-size: 30px;
+}
+.closeBtn:hover, .closeBtn:focus{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+small {
+	font-weight : normal;
+}
+.modal-one h5{
+	float:	right;
+	margin: 0 15px 15px 0;
+}
+.submitpop{
+	font-family: 'Ubuntu',sans-serif;
+	border: 2px solid;
+	background-color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	border-color: #4CAF50;
+	color: green;
+}
+.submitpop:hover{
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}

@@ -1,0 +1,64 @@
+/*@import "http://fonts.googleapis.com/css?family=Ubuntu";*/
+/*
+	common among -  indexstyle		index
+					profiledstyle	profiled 
+*/
+@font-face {
+	font-family: 'Ubuntu';
+	src: url(fonts/Ubuntu-Regular.ttf);
+}
+*{
+	margin:0;
+	padding:0;
+}
+body{
+font-family:'Ubuntu',sans-serif;
+background-color: #eee;
+position:relative;
+}
+header{
+	background-color: #851e3e;
+	color: white;
+	width:99.89%;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 10px;
+}
+header h1{
+	letter-spacing: 0.1em;
+	padding-left: 5%;
+	display: inline;
+}
+.header-links{
+	display: inline;
+}
+header h3{
+	display: inline;
+	padding-right: 2.1%;
+	padding-top: 0.5%;
+	float:right;
+}
+header h3 a{
+	color:white;
+	text-decoration: none;
+}
+header h3 a:hover{
+	color:coral;
+	text-decoration: none;
+	cursor: pointer;
+}
+.spacing{
+	min-height:40px;
+}
+footer{
+	position:fixed;
+	width:100%;
+	left: 0;
+	bottom:0;
+	overflow: hidden;
+	background-color: #651e3e;
+	color:white;
+	text-align:center;
+	padding:2px;
+	font-weight: normal;
+}

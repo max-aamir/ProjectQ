@@ -1,0 +1,103 @@
+section{
+	padding-top: 2%;
+	padding-left: 2%;
+	background-color: #eee;
+}
+section h2{
+	padding-left: 5%;
+}
+section hr{
+	border-top:3px solid #ccc;
+	margin-bottom:5px;
+	margin-top:0.2%;
+	width:80%;
+}
+.user-options{
+	width:40%;
+	padding-left:2%;
+}
+
+.user-options li{
+	font-size: 1.2em;
+	padding-bottom: 2%;
+}
+
+.user-options li a{
+	text-decoration: none;
+	color:black;
+}
+.user-options li a:hover{
+	text-decoration: underline;
+	color:black;
+}
+.user-options li a:visited{
+	text-decoration: underline;
+	color:black;
+}
+
+.user-instructions{
+	width:80%;
+	padding-left:2%;
+}
+
+.user-instructions li{
+	font-size: 1.1em;
+	padding-top: 2%;
+}
+
+.user-instructions li a{
+	text-decoration: none;
+	color:black;
+}
+.user-instructions li a:hover{
+	text-decoration: underline;
+	color:black;
+}
+.user-instructions li a:visited{
+	text-decoration: underline;
+	color:black;
+}
+.for-input{
+	margin: auto;
+	width:60%;	
+}
+.for-input form label{
+	font-size: 1.2em;
+	font-weight: bolder;
+	color:black;
+}
+input{
+font-size: 1.2em;
+width:inherit;
+padding:10px;
+margin-top:25px;
+margin-bottom: 5px;
+border-radius:5px;
+border:1px solid #cbcbcb;
+box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
+}
+.submit{
+	font-family: 'Ubuntu',sans-serif;
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	border-color: #4CAF50;
+	color: green;
+}
+.submit:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+.info {
+	padding: 10px 28px;
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}

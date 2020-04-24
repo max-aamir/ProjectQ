@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+<Resource
+    name="jdbc/quizyRepo"
+    auth="Container"
+    type="javax.sql.DataSource"
+    maxActive="150"
+    maxIdle="50"
+    maxWait="20000"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/quizyRepo"
+    username="Max"
+    password="maxSQL8080?"
+    />
+    <!-- driverClassName="com.mysql.jdbc.Driver" -->
+</context>
